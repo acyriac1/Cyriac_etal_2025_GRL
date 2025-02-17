@@ -39,8 +39,8 @@ month = ['JAN', 'FEB', 'MAR', 'APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','D
 # write the for loop and store output in a dictionary
 for i, mon in enumerate(month):
     row_dict = {'Month': mon,\
-                'RMSE10': (rmse(mon_pred[i+1].data,mon_past[i+1].data)),\
-               'RMSE80': (rmse(mon_80[i+1].data,mon_past[i+1].data))}
+                'RMSE10': (rmse(mon_pred[i+1].data,mon_tar[i+1].data)),\
+               'RMSE80': (rmse(mon_interp[i+1].data,mon_tar[i+1].data))}
     #append each dictionary to a list
     dict_list.append(row_dict)
 

@@ -1,3 +1,4 @@
 This folder contains codes to plot figures in "A machine learning approach to rapidly downscale sea surface temperature extremes and degree heating weeks on the Great Barrier Reef". 
 percentiles.py file plots Figure 2 in the main text and S8-S11 in the Supporting Information document. 
 scatter_plots.py plots figures S7 and S12 in the Supporting Information. 
+seasonal_mean.py plots figure S6 in the Supporting Information. 

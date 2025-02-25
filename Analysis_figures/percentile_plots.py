@@ -14,10 +14,11 @@ from statsmodels.graphics.gofplots import qqplot_2samples
 ##-----load the data
 tar = xr.open_dataset('./ofam3_sst_historic.nc')
 sst_tar = tar.SST
+lon_ap = tar.lon_sst.data
+lat_ap = tar.lat_sst.data
 
 pred = xr.open_dataset('./ofam3_sst_prediction.nc')
 sst_pred = pred.SST
-
 
 inter = xr.open_dataset('./ofam3_sst_interpolation.nc')
 sst_interp = inter.SST

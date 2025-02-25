@@ -142,7 +142,7 @@ lon_sst = gbr_past.lon_sst.data
 lat_sst = gbr_past.lat_sst.data
 
 time_past = gbr_past.time.data
-sst_data = gbr_past.SSTstand.data #saved standardised data
+sst_data = gbr_past.SSTstand.data 
 
 
 #-----------------------------------------

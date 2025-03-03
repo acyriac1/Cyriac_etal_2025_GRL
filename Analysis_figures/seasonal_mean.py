@@ -79,7 +79,7 @@ for i, season in enumerate(("DJF", "MAM", "JJA", "SON")):
     m.fillcontinents(ax=axes[i, 0],color='grey')
     
     ## Add the polygon for GBR conservation area
-    lons = [142.6, 145, 145, 146, 147, 152.5, 154, 152]
+    lons = [142.6, 145, 145, 146, 147, 152.9, 154, 152]
     lats = [-10.65, -10.65, -13, -15, -17.5, -21, -24.5, -24.5]
     x, y = m(lons, lats)
     m.plot(x, y, ax=axes[i, 0],color='k', linewidth=1.5, linestyle = 'dotted')
@@ -106,7 +106,7 @@ for i, season in enumerate(("DJF", "MAM", "JJA", "SON")):
     # # cbar.set_label('SST')
 
     ## Add the polygon for GBR conservation area
-    lons = [142.6, 145, 145, 146, 147, 152.5, 154, 152]
+    lons = [142.6, 145, 145, 146, 147, 152.9, 154, 152]
     lats = [-10.65, -10.65, -13, -15, -17.5, -21, -24.5, -24.5]
     x, y = m(lons, lats)
     m.plot(x, y, ax=axes[i, 1], color='k', linewidth=1.5, linestyle = 'dotted')
@@ -139,7 +139,7 @@ for i, season in enumerate(("DJF", "MAM", "JJA", "SON")):
 
 
     ## Add the polygon for GBR conservation area
-    lons = [142.6, 145, 145, 146, 147, 152.5, 154, 152]
+    lons = [142.6, 145, 145, 146, 147, 152.9, 154, 152]
     lats = [-10.65, -10.65, -13, -15, -17.5, -21, -24.5, -24.5]
     x, y = m(lons, lats)
     m.plot(x, y, ax=axes[i, 2], color='k', linewidth=1.5, linestyle = 'dotted')
@@ -165,7 +165,7 @@ for i, season in enumerate(("DJF", "MAM", "JJA", "SON")):
             transform=axes[i,3].transAxes, horizontalalignment='right', fontweight = 'bold')
 
     ## Add the polygon for GBR conservation area
-    lons = [142.6, 145, 145, 146, 147, 152.5, 154, 152]
+    lons = [142.6, 145, 145, 146, 147, 152.9, 154, 152]
     lats = [-10.65, -10.65, -13, -15, -17.5, -21, -24.5, -24.5]
     x, y = m(lons, lats)
     m.plot(x, y, ax=axes[i, 3], color='k', linewidth=1.5, linestyle = 'dotted')
@@ -182,7 +182,7 @@ for i, season in enumerate(("DJF", "MAM", "JJA", "SON")):
     m.fillcontinents(ax=axes[i, 4],color='grey')
     
     ## Add the polygon for GBR conservation area
-    lons = [142.6, 145, 145, 146, 147, 152.5, 154, 152]
+    lons = [142.6, 145, 145, 146, 147, 152.9, 154, 152]
     lats = [-10.65, -10.65, -13, -15, -17.5, -21, -24.5, -24.5]
     x, y = m(lons, lats)
     m.plot(x, y, ax=axes[i, 4], color='k', linewidth=1.5, linestyle = 'dotted')

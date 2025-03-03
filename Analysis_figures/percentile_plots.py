@@ -100,7 +100,7 @@ m.fillcontinents(color='grey')
 plt.annotate("(a)", m(143.4,-20), fontsize=14)
 
 ## Add the polygon for GBR conservation area
-lons = [142.6, 145, 145, 146, 147, 152.5, 154, 152]
+lons = [142.6, 145, 145, 146, 147, 152.9, 154, 152]
 lats = [-10.65, -10.65, -13, -15, -17.5, -21, -24.5, -24.5]
 x, y = m(lons, lats)
 m.plot(x, y, color='k', linewidth=1.5, linestyle = 'dotted')
@@ -116,7 +116,7 @@ m.fillcontinents(color='grey')
 plt.annotate("(b)", m(143.4,-20), fontsize=14)
 
 ## Add the polygon for GBR conservation area
-lons = [142.6, 145, 145, 146, 147, 152.5, 154, 152]
+lons = [142.6, 145, 145, 146, 147, 152.9, 154, 152]
 lats = [-10.65, -10.65, -13, -15, -17.5, -21, -24.5, -24.5]
 x, y = m(lons, lats)
 m.plot(x, y, color='k', linewidth=1.5, linestyle = 'dotted')
@@ -140,7 +140,7 @@ m.fillcontinents(color='grey')
 plt.annotate("(c)", m(143.4,-20), fontsize=14)
 
 ## Add the polygon for GBR conservation area
-lons = [142.6, 145, 145, 146, 147, 152.5, 154, 152]
+lons = [142.6, 145, 145, 146, 147, 152.9, 154, 152]
 lats = [-10.65, -10.65, -13, -15, -17.5, -21, -24.5, -24.5]
 x, y = m(lons, lats)
 m.plot(x, y, color='k', linewidth=1.5, linestyle = 'dotted')
@@ -173,7 +173,7 @@ m.fillcontinents(color='grey')
 plt.annotate("(d)", m(143.4,-20), fontsize=14)
 
 ## Add the polygon for GBR conservation area
-lons = [142.6, 145, 145, 146, 147, 152.5, 154, 152]
+lons = [142.6, 145, 145, 146, 147, 152.9, 154, 152]
 lats = [-10.65, -10.65, -13, -15, -17.5, -21, -24.5, -24.5]
 x, y = m(lons, lats)
 m.plot(x, y, color='k', linewidth=1.5, linestyle = 'dotted')
@@ -189,7 +189,7 @@ m.fillcontinents(color='grey')
 plt.annotate("(e)", m(143.4,-20), fontsize=14)
 
 ## Add the polygon for GBR conservation area
-lons = [142.6, 145, 145, 146, 147, 152.5, 154, 152]
+lons = [142.6, 145, 145, 146, 147, 152.9, 154, 152]
 lats = [-10.65, -10.65, -13, -15, -17.5, -21, -24.5, -24.5]
 x, y = m(lons, lats)
 m.plot(x, y, color='k', linewidth=1.5, linestyle = 'dotted')
@@ -205,7 +205,7 @@ m.fillcontinents(color='grey')
 plt.annotate("(f)", m(143.4,-20), fontsize=14)
 
 ## Add the polygon for GBR conservation area
-lons = [142.6, 145, 145, 146, 147, 152.5, 154, 152]
+lons = [142.6, 145, 145, 146, 147, 152.9, 154, 152]
 lats = [-10.65, -10.65, -13, -15, -17.5, -21, -24.5, -24.5]
 x, y = m(lons, lats)
 m.plot(x, y, color='k', linewidth=1.5, linestyle = 'dotted')
@@ -231,7 +231,7 @@ m.fillcontinents(color='grey')
 plt.annotate("(g)", m(143.4,-20), fontsize=14)
 
 ## Add the polygon for GBR conservation area
-lons = [142.6, 145, 145, 146, 147, 152.5, 154, 152]
+lons = [142.6, 145, 145, 146, 147, 152.9, 154, 152]
 lats = [-10.65, -10.65, -13, -15, -17.5, -21, -24.5, -24.5]
 x, y = m(lons, lats)
 m.plot(x, y, color='k', linewidth=1.5, linestyle = 'dotted')
@@ -252,7 +252,7 @@ m.fillcontinents(color='grey')
 plt.annotate("(h)", m(143.4,-20), fontsize=14)
 
 ## Add the polygon for GBR conservation area
-lons = [142.6, 145, 145, 146, 147, 152.5, 154, 152]
+lons = [142.6, 145, 145, 146, 147, 152.9, 154, 152]
 lats = [-10.65, -10.65, -13, -15, -17.5, -21, -24.5, -24.5]
 x, y = m(lons, lats)
 m.plot(x, y, color='k', linewidth=1.5, linestyle = 'dotted')

@@ -108,7 +108,7 @@ plt.annotate("AUSTRALIA", m3(142,-35),fontsize=9, fontweight='bold',rotation=45)
 plt.annotate("(a)", m3(143.1,-20), fontsize=13)
 
 ## Add the polygon for GBR conservation area
-lons = [142.6, 145, 145, 146, 147, 152.5, 154, 152]
+lons = [142.6, 145, 145, 146, 147, 152.9, 154, 152]
 lats = [-10.65, -10.65, -13, -15, -17.5, -21, -24.5, -24.5]
 x, y = m3(lons, lats)
 m3.plot(x, y, marker=None,color='g', linewidth=1.2)
